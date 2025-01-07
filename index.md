@@ -153,7 +153,7 @@ This block displays the date and links to Google Calendar.
 
 <p id="requirements">
   <strong>Requirements:</strong>
-    Participants must bring a laptop which can connect to the Eduroam or NOCstaff wifi. All attendees will receive an account on the NOC Data Science Platform where all required software will be pre-installed. Anybody wishing to install the software on their laptop should follow the setup instructions <a href="#setup">below</a>.
+    Participants must bring a laptop which can connect to the Eduroam or NOCstaff wifi. All attendees will receive an account on the NOC Data Science Platform where all required software will be pre-installed.
 </p>
 
 {% comment %}
@@ -340,7 +340,7 @@ This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
-
+{% comment %}
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -361,7 +361,7 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+{% endcomment %}
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -372,15 +372,16 @@ If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instructions.
 {% endcomment %}
+{% comment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
-
+{% endcomment %}
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
-
+{% comment %}
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
@@ -392,3 +393,4 @@ Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% endcomment %}
