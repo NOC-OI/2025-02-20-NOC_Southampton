@@ -84,11 +84,10 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p id="what">
   <strong>About this workshop:</strong>
-  This Software Carpentry course is an introductory course covering using the Unix command line shell, Programming in Python and Version Control with Git. Learners are not expected to have any prior knowledge of these topics. You can find links to the course notes for these topics below:
+  This Software Carpentry course is an introductory course covering Programming in Python and using Conda for package and environment management. Learners are not expected to have any prior knowledge of these topics. Some basic Unix knowledge is assumed (how to make and change directories). You can find links to the course notes for these topics below:
   <ul>
-    <li><a href="https://swcarpentry.github.io/shell-novice/">Shell</a></li>
     <li><a href="https://noc-oi.github.io/python-novice-esces/">Python</a></li>
-    <li><a href="https://noc-oi.github.io/git-novice/">Git</a></li>
+    <li><a href="https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/">Conda</a></li>
   </ul>
 
 <p id="who-can-attend">
