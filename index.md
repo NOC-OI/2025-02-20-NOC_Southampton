@@ -303,6 +303,7 @@ of code below the Schedule `<h2>` header below with
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
+This schedule is still being refined and may be changed slightly. 
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
