@@ -14,7 +14,7 @@ humantime: "9:30 am - 5:00 pm UTC"    # human-readable times for the workshop e.
 startdate: 2025-01-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-01-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Colin Sauze", "Tobias Ferreira"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Esther Turner", "Alex Baldwin", "Adam Ward"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Esther Turner", "Alex Baldwin", "Adam Ward", "Geogre Perera"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["colin.sauze@noc.ac.uk","esther.turner@noc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite: 1216809061659        # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -87,7 +87,7 @@ displayed if the 'eventbrite' field in the header is not set.
   This Software Carpentry course is an introductory course covering Programming in Python and using Conda for package and environment management. Learners are not expected to have any prior knowledge of these topics. Some basic Unix knowledge is assumed (how to make and change directories). You can find links to the course notes for these topics below:
   <ul>
     <li><a href="https://noc-oi.github.io/python-novice-esces/">Python</a></li>
-    <li><a href="https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/">Conda</a></li>
+    <li><a href="https://noc-oi.github.io/introduction-to-conda-for-data-scientists/">Conda</a></li>
   </ul>
 
 <p id="who-can-attend">
